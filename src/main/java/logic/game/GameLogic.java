@@ -1,4 +1,4 @@
-package logic;
+package logic.game;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -50,7 +50,7 @@ public class GameLogic {
 	
 	public void gameStart() {
 		//add red cards to deck
-		this.deck.add(new NumberCard(CardColor.RED,CardSymbol.ONE));
+		this.deck.add(new NumberCard(CardColor.RED, CardSymbol.ONE));
 		this.deck.add(new NumberCard(CardColor.RED,CardSymbol.TWO));
 		this.deck.add(new NumberCard(CardColor.RED,CardSymbol.THREE));
 		this.deck.add(new NumberCard(CardColor.RED,CardSymbol.FOUR));

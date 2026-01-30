@@ -9,9 +9,9 @@ import org.junit.jupiter.api.Test;
 
 import logic.card.BaseCard;
 import logic.card.DrawTwoCard;
-import logic.CardColor;
-import logic.GameLogic;
-import logic.CardSymbol;
+import logic.game.CardColor;
+import logic.game.GameLogic;
+import logic.game.CardSymbol;
 
 class DrawTwoCardTest {
 	

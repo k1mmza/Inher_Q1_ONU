@@ -1,4 +1,4 @@
-package logic;
+package logic.game;
 
 public enum CardColor {
 	

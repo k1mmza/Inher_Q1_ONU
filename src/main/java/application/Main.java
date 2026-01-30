@@ -2,7 +2,7 @@ package application;
 
 import java.util.Scanner;
 
-import logic.GameLogic;
+import logic.game.GameLogic;
 
 public class Main {
 	

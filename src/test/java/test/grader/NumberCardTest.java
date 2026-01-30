@@ -1,12 +1,15 @@
 package test.grader;
 
+import logic.card.BaseCard;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import logic.card.NumberCard;
-import logic.CardColor;
-import logic.GameLogic;
-import logic.CardSymbol;
+import logic.game.CardColor;
+import logic.game.GameLogic;
+import logic.game.CardSymbol;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class NumberCardTest {
 

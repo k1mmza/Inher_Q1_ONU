@@ -9,10 +9,13 @@ import org.junit.jupiter.api.Test;
 import logic.card.BaseCard;
 import logic.card.DrawTwoCard;
 import logic.card.NumberCard;
-import logic.CardColor;
-import logic.GameLogic;
-import logic.CardSymbol;
+import logic.game.CardColor;
+import logic.game.GameLogic;
+import logic.game.CardSymbol;
 import logic.utility.GameLogicUtility;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class GameLogicUtilityTest {
 
